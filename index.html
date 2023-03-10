@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL MENU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="build.jpeg" class="bg">
+    <div class="container">
+        <h1>Welcome to event submission form</h1>
+        <p>Enter your details and about the event you wish to participate</p>
+        <form action="style.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="phone_number" id="phone_number" placeholder="Enter your Phone number">
+            <input type="text" name="department" id="department" placeholder="Enter your Department">
+            <input type="text" name="email" id="email" placeholder="Enter your E-mail address">
+            <select name="event" id="event" style="border-radius: 14px; width: 80%; opacity: 76%;">
+                <option>Select an event</option>
+                <option>Crack the code</option>
+                <option>Mock Interview</option>
+                <option>Reverse Shark tank</option>
+                <option>Programmers date</option>
+                <option>Maze Runner</option>
+            </select>
+            <!-- <input type="text" name="event" id="event" placeholder="Enter the participated event"> -->
+            <textarea name="text" id="text" cols="5" rows="5" placeholder="enter any details here"></textarea>
+            <button class="button" style="align-self: center;">Submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    <!-- if(isset($_POST['name'])) -->
+
+    
+</body>
+</html>
